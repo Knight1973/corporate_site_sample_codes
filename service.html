@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SPICULE</title>
+    <link rel="favicon"  href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style_sp.css" type="text/css">
+  </head>
+    
+  <body>
+	<header>
+      <div class="header">
+        <div class="container">
+          <div class="header_content">
+            <div class="logo">
+              <a href="index.html">
+                <img src="img/logo.png" class="logo" alt="logo">
+              </a>
+            </div>  
+            <div class="navgation">
+              <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="company.html">会社概要</a></li>
+                  <li><a href="service.html">事業紹介</a></li>
+                  <li><a href="recruit.html">採用情報</a></li>
+                  <li><i class="fa fa-envelope" aria-hidden="true"></i><br><a href="contact.html">お問い合わせ</a></li>
+              </ul>
+            </div>              
+            <div class="menu_btn">
+                <div class="container" onclick="openNav(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="myNav" class="overlay">            
+            <div class="overlay-content">
+              <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="company.html">会社概要</a></li>
+                  <li><a href="service.html">事業紹介</a></li>
+                  <li><a href="recruit.html">採用情報</a></li>
+                  <li><a href="contact.html">お問い合わせ</a></li>
+              </ul>
+            </div>
+        </div>    
+      </div>
+    </header>
+
+    <section class="service-banner">
+        <h3>BUSINESS</h3>
+        <h4>事業紹介</h4>
+    </section>
+
+    <section class="breadcrumb">
+        <a href="index.html">HOME</a><span>></span><a href="service.html">事業紹介</a>
+    </section>
+    
+    <section class="service-texts">
+        <div class="service-captions">
+            <a href="#project"><span>常駐型プロジェクト支援</span></a>
+            <a href="#aws"><span>AWS導入支援</span></a>
+            <a href="#system"><span>システムインテグレーション</span></a>
+        </div>
+
+        <h6 class="title" id="project">常駐型プロジェクト支援</h6>
+        <p class="service-content">プロジェクト管理・設計・実装・テスト・運用設計までの一連の業務を支援<br>SE・PG・インフラ（AWSやネットワークなどを含む）のほか、幅広い分野に対応します。<br><br>
+        お客様、協力会社とのチーム体制でプロジェクトに参加し、求められた業務に合わせ、経験豊富なスタッフが適切な対応を行いご支援いたします。<br>SEをはじめ、PG、ディレクターなど幅広い業務に対応できる人材が揃っています。<br>&emsp;• 大手予約サイト開発<br>&emsp;• 大手ECサイト開発<br>&emsp;• 発電機（IoT）管理コンソール開発<br>等、実績多数有り</p>
+
+        <h6 class="title" id="aws">AWS導入支援</h6>
+        <p class="service-content">お客様の既存システムをAWSやGCP等のクラウド環境へ移行、または新規構築し、その後の運用サポートも行います。<br>&emsp;• コンサルティング<br>&emsp;&emsp;サービスの選定から導入、使い方のレクチャーまで<br>&emsp;• 移行・環境構築<br>&emsp;&emsp;AWS認定資格を持つエンジニアが移行をサポート<br>&emsp;• セキュリティ<br>&emsp;&emsp;プロフェッショナルがセキュリティ設計・運用を幅広く支援<br>&emsp;• 運用・最適化<br>&emsp;&emsp;AWS認定資格者がレビューを行い、クラウド環境を最適化</p>
+
+        <h6 class="title" id="system">システムインテグレーション</h6>
+        <p class="service-content">お客様の情報システム構築全般をご提案、開発いたします。<br>企画・立案、設計・開発、構築、運用・保守など包括的に行うことができますが、一部を請け負うことも可能です。<br>完成したシステムの導入後も半永久的なサポートを行います。<br><br>〇開発環境・言語</p>
+
+        <div class="service-box">
+            <div class="text-line">
+                <p>プログラミング言語：</p>
+                <p>Java、Python、Ruby、Kotlin</p>
+            </div>
+            <div class="text-line">
+                <p>フレームワーク：</p>
+                <p>SpringFramework、RubyOnRails、AWS/GCP等のクラウドSDK</p>
+            </div>
+            <div class="text-line">
+                <p>クラウド環境：</p>
+                <p>AWS(AmazonWebService)、GCP(GoogleCloudPlatform)、Azure(Microsoft)</p>
+            </div>
+            <div class="text-line">
+                <p>データベース：</p>
+                <p>Oracle、Amazon Aurora、BigQuery、MySQL、PostgreSQL</p>
+            </div>
+            <div class="text-line">
+                <p>OS：</p>
+                <p>Linux、Windows</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+       <div class="footer-logo">
+   			<a href="index.html">
+            	<img src="img/logo.png" alt="logo">
+            </a>      	
+       </div>
+       <div class="footer-menu">
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="company.html">会社概要</a></li>
+              <li><a href="service.html">事業紹介</a></li>
+              <li><a href="recruit.html">採用情報</a></li>
+              <li><a href="contact.html">お問い合わせ</a></li>
+              <li><a href="policy.html">個人情報保護方針</a></li>
+          </ul>
+        </div>
+    </footer>
+    <p class="copyright">©️  SPICULE　All rights reserved.</p>
+
+    <div class="back-to-top">
+        <div class="vertical-line"></div>
+        <div class="vertical-text"><a href="#">PAGE TOP</a></div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
