@@ -888,10 +888,15 @@ input.submit{
     width: 20%;
     text-align: center;
 }
-
-
-
-
+.address img{
+    width: 30%;
+}
+.tel img{
+    width: 25%;
+}
+.tel{
+    margin-left: 3%!important;
+}
 
 
 
